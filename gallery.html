@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Travel Moments</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        /* Basic inline CSS for a grid layout */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Travel Gallery</h1>
+    </header>
+    <section id="gallery">
+        <p style="margin-bottom:20px;">
+            A collection of my favorite travel moments from around Sri Lanka and beyond.
+        </p>
+        <div class="gallery-grid">
+            <img src="1.jpg" alt="Travel Photo 1 - Mountain View">
+            <img src="2.jpg" alt="Travel Photo 2 - Beach Sunset">
+            <img src="3.jpg" alt="Travel Photo 3 - Historical Site">
+        </div>
+    </section>
+</body>
+</html>
